@@ -1,0 +1,163 @@
+<ns1:NetworXClaim xmlns:ns1='http://www.trizetto.com/networx'>
+  <SubmitterClaimNumber>PROFASS-DUS04</SubmitterClaimNumber>
+  <ReceivedDate>2020-12-11T00:00:00.000Z</ReceivedDate>
+  <Patient>
+    <Address>
+      <Line1>4848 Broadway</Line1>
+      <Line2 />
+      <City>new york</City>
+      <State>NY</State>
+      <Zip>10034</Zip>
+    </Address>
+    <BirthDate>1975-04-07</BirthDate>
+    <FirstName>Harriett</FirstName>
+    <Gender>M</Gender>
+    <LastName>Haley</LastName>
+    <MiddleInitial />
+  </Patient>
+  <Insureds>
+    <Id>999999999</Id>
+    <LastName>Haley</LastName>
+    <MemberNumber>1006725240</MemberNumber>
+    <Address>
+      <Line1>4848 Broadway</Line1>
+      <Line2 />
+      <City>new york</City>
+      <State>ny</State>
+      <Zip>10034</Zip>
+    </Address>
+  </Insureds>
+  <Employers>
+    <Name>N/A</Name>
+    <GroupName>LUCE, FORWARD, HAMILTON &amp;amp; SCRI</GroupName>
+    <GroupNumber>00617386</GroupNumber>
+  </Employers>
+  <Provider>
+    <BillingAddress>
+      <Line1>4848 broadway</Line1>
+      <Line2 />
+      <City>new york</City>
+      <State>ny</State>
+      <Zip>10034</Zip>
+    </BillingAddress>
+    <BillingName>Disease Center</BillingName>
+    <BillingNpi></BillingNpi>
+    <GroupName>Disease Center</GroupName>
+    <PracticeAddress>
+      <Line1>5000 broadway</Line1>
+      <Line2 />
+      <City>new york</City>
+      <State>ny</State>
+      <Zip>10034</Zip>
+    </PracticeAddress>
+    <TaxId>999999999</TaxId>
+    <ServiceNpi />
+    <ServiceOtherId />
+  </Provider>
+  <ProviderOtherId />
+  <ProviderReferringNpi />
+  <ClaimType>E</ClaimType>
+  <SourceCode>P</SourceCode>
+  <Diagnoses>
+    <Icd10>
+      <Code>S80.911</Code>
+    </Icd10>
+  </Diagnoses>
+  <IcdVersion>0</IcdVersion>
+  <TotalCharges>4500</TotalCharges>
+  <NetworkCode />
+  <RateSheet>
+    <Code>90SANPV2</Code>
+  </RateSheet>
+  <SourceClaimType>E</SourceClaimType>
+  <Hcp />
+  <UserDefined />
+  <ProfessionalLineItems>
+    <ProcedureCode>01996</ProcedureCode>
+    <Modifiers>22</Modifiers>
+    <Modifiers></Modifiers>
+    <UnitsOfService>1</UnitsOfService>
+    <TotalCharges>500</TotalCharges>
+    <Ndc>
+      <DrugCode></DrugCode>
+      <UnitCount />
+      <UnitPrice></UnitPrice>
+    </Ndc>
+    <ServiceId>1</ServiceId>
+    <UserDefined>
+      <LineNumber>1</LineNumber>
+    </UserDefined>
+    <ServiceToDate>2020/12/12</ServiceToDate>
+    <ServiceFromDate>2020/12/12</ServiceFromDate>
+    <PlaceOfService>22</PlaceOfService>
+    <DiagnosisCodePointers>1</DiagnosisCodePointers>
+    <RenderingProviderNpi />
+  </ProfessionalLineItems>
+    <ProfessionalLineItems>
+    <ProcedureCode>01999</ProcedureCode>
+    <Modifiers>52</Modifiers>
+    <Modifiers></Modifiers>
+    <UnitsOfService>1</UnitsOfService>
+    <TotalCharges>3500</TotalCharges>
+    <Ndc>
+      <DrugCode></DrugCode>
+      <UnitCount />
+      <UnitPrice></UnitPrice>
+    </Ndc>
+    <ServiceId>1</ServiceId>
+    <UserDefined>
+      <LineNumber>2</LineNumber>
+    </UserDefined>
+    <ServiceToDate>2020/12/12</ServiceToDate>
+    <ServiceFromDate>2020/12/12</ServiceFromDate>
+    <PlaceOfService>22</PlaceOfService>
+    <DiagnosisCodePointers>1</DiagnosisCodePointers>
+    <RenderingProviderNpi />
+  </ProfessionalLineItems>
+    <ProfessionalLineItems>
+    <ProcedureCode>01996</ProcedureCode>
+    <Modifiers>78</Modifiers>
+    <Modifiers></Modifiers>
+    <Modifiers></Modifiers>
+    <Modifiers></Modifiers>
+    <UnitsOfService>1</UnitsOfService>
+    <TotalCharges>500</TotalCharges>
+    <Ndc>
+      <DrugCode></DrugCode>
+      <UnitCount />
+      <UnitPrice></UnitPrice>
+    </Ndc>
+    <ServiceId>1</ServiceId>
+    <UserDefined>
+      <LineNumber>3</LineNumber>
+    </UserDefined>
+    <ServiceToDate>2020/12/12</ServiceToDate>
+    <ServiceFromDate>2020/12/12</ServiceFromDate>
+    <PlaceOfService>22</PlaceOfService>
+    <DiagnosisCodePointers>1</DiagnosisCodePointers>
+    <RenderingProviderNpi />
+ </ProfessionalLineItems>
+  <!--<ProfessionalLineItems>
+    <ProcedureCode>99213</ProcedureCode>
+    <Modifires />
+    <AnesthesiaHours></AnesthesiaHours>
+    <AnesthesiaMinutes></AnesthesiaMinutes>
+    <Modifiers></Modifiers>
+    <UnitsOfService>1</UnitsOfService>
+    <TotalCharges>450</TotalCharges>
+    <Ndc>
+      <DrugCode></DrugCode>
+      <UnitCount />
+      <UnitPrice></UnitPrice>
+    </Ndc>
+    <ServiceId>1</ServiceId>
+    <UserDefined>
+      <LineNumber>2</LineNumber>
+    </UserDefined>
+    <ServiceToDate>2019/12/01</ServiceToDate>
+    <ServiceFromDate>2019/12/01</ServiceFromDate>
+    <PlaceOfService>02</PlaceOfService>
+    <DiagnosisCodePointers>1</DiagnosisCodePointers>
+    <RenderingProviderNpi />
+  </ProfessionalLineItems> -->
+</ns1:NetworXClaim>
